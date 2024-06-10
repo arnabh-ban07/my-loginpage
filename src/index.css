@@ -5,9 +5,155 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 100vw 100vh ;
+  background-repeat: no-repeat;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn{
+  width: 320px;
+  height: 45px;
+  top: -913px;
+  left: -1611px;
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: 0px 2px 7px 0px #00000066;
+  border-radius: 25px;
+  background-color: white;
+  color:#000000;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.3px;
+  
+  
+
+
+
+  ;
+
+  
+
+
+}
+
+.container{
+  display: block;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.form-container{
+  margin-top: 15%;
+  margin-left: 35%;
+    margin-right:25%;
+    width: 70%;
+    width: 412px;
+height: 495px;
+top: -1262px;
+left: -1659px;
+gap: 0px;
+border-radius: 15px ;
+opacity: 0px;
+background: #E7F4FB0A;
+box-shadow: 0px 4px 4px 0px #00000040;
+
+
+h1{
+  color: #FFFFFF;
+  font-family: Satoshi;
+  margin-left: 35%;
+font-size: 48px;
+font-weight: 700;
+line-height: 64.8px;
+text-align: left;
+
+}
+
+h2{
+  color: #FFFFFF;
+  font-family: Satoshi;
+  margin-left: 15%;
+font-size: 48px;
+font-weight: 500;
+line-height: 64.8px;
+text-align: left;
+}
+
+::placeholder{
+  font-family: Satoshi;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.3px;
+text-align: left;
+width: 85px;
+height: 24px;
+top: -1113px;
+left: -1598px;
+gap: 0px;
+opacity: 0px;
+margin-left: 25%;
+text-align: justify;
+
+}
+
+    
+  
+
+
+}
+
+.input-btn{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.btn-user{
+  width: 320px;
+height: 45px;
+top: -1123px;
+left: -1613px;
+gap: 0px;
+border-radius: 25px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin: 5%;
+
+}
+
+a,p,label{
+  color:white
+}
+label{
+  margin-right: 10%;
+}
+
+.error{
+  color: white;
+  font: bold;
+  size: 20px;
+}
+
+.form-container-2{
+  margin-top: 15%;
+  margin-left: 35%;
+    margin-right:25%;
+    width: 70%;
+    width: 412px;
+height: 295px;
+top: -1262px;
+left: -1659px;
+gap: 0px;
+border-radius: 15px ;
+opacity: 0px;
+background: #E7F4FB0A;
+box-shadow: 0px 4px 4px 0px #00000040;
+}
+
