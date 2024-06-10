@@ -24,7 +24,7 @@ const Login = () => {
 
     }
 
-    const regex=new RegExp("^(?=.*[a-zA-Z])(?=.*\d).{4,}$")
+    const regex=new RegExp("^(?=.*[a-zA-Z])(?=.*).{4,}$")
 
     if(password && regex.test(password)===false) {
       newErrors.password="Minimum four characters, at least one letter and one number is required"
