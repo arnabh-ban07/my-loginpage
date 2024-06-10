@@ -5,7 +5,7 @@ const Login = () => {
   const[email,setEmail]=useState('')
   const [password, setPassword] = useState('');
   const[errors,setErrors]=useState({});
-  const[submitted,setSubmitted]=useState(false)
+  
   
 
 
@@ -40,7 +40,7 @@ const Login = () => {
 
     if (validateForm()){
       console.log("Form data:",email,password)
-      setSubmitted(true);
+    
     } else{
 
     }
